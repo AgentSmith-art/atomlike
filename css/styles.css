@@ -1,10 +1,13 @@
 body {
+
+  max-width: 100%;
+  max-height: 100%;
   color: #eeeeee;
   margin: 0;
-  background-repeat: no-repeat;
-background-image: url("../images/back2.jpg");
+  background-image: url("../images/back2.jpg");
   /* background-color: #3a3f45;*/
   background-size: cover;
+
 }
 
 h1 {
@@ -18,6 +21,8 @@ h1 {
 }
 
 .top-menu {
+  max-width: 100%;
+  max-height: 100%;
   background-color: #222831;
   margin: 0;
   font-family: 'Quicksand', sans-serif;
@@ -32,7 +37,10 @@ h1 {
   padding: 15px;
 }
 
-.top-menu a {
+.top-menu a
+{
+  max-width: 100%;
+  max-height: 100%;
   color: #eeeeee;
   text-decoration: none;
   padding-right: 40px;
