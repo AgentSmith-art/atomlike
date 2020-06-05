@@ -1,0 +1,84 @@
+body {
+  color: #eeeeee;
+  margin: 0;
+
+background-image: url("../images/back2.jpg");
+  /* background-color: #3a3f45;*/
+  background-size: cover;
+}
+
+h1 {
+  color: #00adb5;
+  margin: 0;
+  font-family: 'Secular One', sans-serif;
+}
+
+.topcontainer {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.top-menu {
+  background-color: #222831;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+}
+
+.menu-bar {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.top-menu a {
+  color: #eeeeee;
+  text-decoration: none;
+  padding-right: 40px;
+}
+
+.active {
+  background-color: #00adb5;
+}
+
+.hero-logo-circles {
+  width: 366px;
+  height: 366px;
+  margin-top:10%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  position: relative;
+}
+
+.hero-logo-circle {
+  position: absolute;
+  left: 0;
+  top: 0;
+  animation-name: spin;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  will-change: transform;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.core
+{
+
+ padding-top: 159px;
+  text-align: center;
+  font-family: 'Allerta Stencil', sans-serif;
+
+
+}
